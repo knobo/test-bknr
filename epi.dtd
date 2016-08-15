@@ -1,0 +1,21 @@
+<!ELEMENT root (stores+)>
+<!ELEMENT stores (store+)>
+<!ELEMENT store (name, location, image, intro, bodytext, phone, fax, slideshow, business, productgroups, brands, floors)>
+<!ELEMENT business (line+)>
+<!ELEMENT productgroups (line+)>
+<!ELEMENT brands (line+)>
+<!ELEMENT floors (floor+)>
+<!ELEMENT floor (#PCDATA)>
+<!ELEMENT line (#PCDATA)>
+<!ATTLIST line id CDATA #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT intro (#PCDATA)>
+<!ELEMENT bodytext (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT fax (#PCDATA)>
+<!ELEMENT slideshow (#PCDATA)>
+
+
+
